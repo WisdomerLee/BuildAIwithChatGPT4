@@ -1,0 +1,4 @@
+plan??
+Bellman Equation으로 각 state마다 value를 지정하여 agent의 행동을 해당 value가 커지는 방향으로 움직이도록 유도한다면
+
+plan은 그 해당 state의 value를 이용하여 agent가 보상을 얻도록 취해야 할 행동을 state마다 지정해둔 것
