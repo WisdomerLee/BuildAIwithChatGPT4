@@ -1,0 +1,19 @@
+deep learning에 Q-Learning의 내용을 집어넣기!!
+
+Deep Q Learning
+
+Artificial Neural Network
+
+기본적으로 Q -Learning은 매우 간단한 환경(제한적인 환경 등)에서 적용되나 이것보다 복잡한 환경 등의 상황을 배우게 된다면??
+일반적인 Q-Learning은 상황 고려해야 할 것이 매우 늘어나게 되면 계산해야 할 것이 매우 크게 늘어나게 됨... : 비효율적
+
+Deep Learning은 기계 학습들 중에 확장, 대응 가능성이 좋은 방식임
+
+input layer에 각 환경의 state등을 입력하고
+output layer에서는 각 action에 따른 Q 값들을 출력
+
+Q-Learning의 temporal difference를 이용하여
+Deep Learning에서는 
+weight들이 달라짐!!
+
+loss function을 (Q-Target-Q)^2의 합으로 정의
