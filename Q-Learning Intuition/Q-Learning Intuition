@@ -1,0 +1,15 @@
+state의 value만으로 계산된 것 : policy들
+각 상태의 값을 bellman equation으로 책정하되
+각 행동에 따른 상태의 값을 얻은 것을 Q라는 값으로 책정함!!!
+(무조건 다음의 결과에 따라 값이 책정되던 것과 달리)
+각 행동의 결과에 따른 상태의 값이 책정된 것 :Q
+
+
+Q 값은 어떻게 ??
+V에서는 max를 얻던 것과는 달리
+Q는 그 max를 얻던 그 식을 그대로 들고 옴(max만 적용되지 않음)
+
+Q 값은 V와 달리 
+gamma 보정이 들어간 쪽에 maxQ부분이 들어감
+
+Markov Decision Processes : Concepts and Algorithms , Martijn van Otterlo(2009)
