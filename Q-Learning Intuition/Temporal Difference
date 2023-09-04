@@ -1,0 +1,27 @@
+Q-Learning algorithm의 알짜 부분
+
+temporal difference : agent가 주어진 환경에서 각 공간별로 얻는 보상을 확률적으로 계산하여 그 합을 보상하여 각 공간의 상태 값을 계산하는데 쓰임
+V는 모든 행동이 모두 고려되어 책정된 값
+Q는 특정 행동을 하였을 때 !!!에만
+
+그리고 확률 분포 값이 계산되어 max를 보정하여 gamma를 곱하는 것은 뒤집어 말하면 그 확률 분포마저도 gamma에 포함하여 계산하게 된다면...?
+(확률 분포는 환경에 따라 결정되기 때문에 행동의 영향을 받는 것이 아니므로 행동의 함수에서 상수처럼 취급될 수 있음)
+그러면 수식이 보다 간편해짐
+ : 접근은 확률적인 행동 선택에 있음!
+
+temporal difference를 통해
+bellman equation으로 Q값을 계산하고
+행동을 통해 달라진 값을 얻어내고 나면 그 값으로 다시 Q 값을 보정
+
+Temporal Difference : 새로 보정된 Q값과 이전의 Q값의 차이
+TD(a,s) = R(s,a) + gamma*max_a'Q(s',a')-Q_t-1(s,a)
+
+Q_t(s,a) = Q_t-1(s,a) + alpha*TD_t(a,s)
+
+Q값이 time에 따라 달라짐: Q-learning에서 Q값을 계산하는 방식
+
+Q_t(s,a) = Q_t-1(s,a) + alpha*(R(s,a)+gamma*max_a'Q(s',a')-Q_t-1(s,a))
+
+행동을 취해서 얻은 Q값들을 이전의 Q값과 비교하여 다시 그 값을 보정치를 더해 새로 계산하여 policy를 업데이트!
+
+Learning to Predict by the Methods of Temporal Differences, Richard Sutton(1988)
