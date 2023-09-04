@@ -1,0 +1,9 @@
+개발 환경 : Anaconda
+Anaconda의 Environments에서 create option을 선택하고 환경의 이름을 설정하고 python으로 된 설정을 선택
+
+설치되고 나면
+environments에서 만든 환경을 선택하고
+녹색의 화살표를 선택하면 open terminal을 선택
+혹은 terminal을 열고 (Mac, Linux의 경우 source) activate "환경 이름"
+
+또한 환경에 집어넣어야 할 폴더를 해당 환경이 활성화된 터미널로 갖다 대면 > 해당 환경에 해당 파일들이 적용된 상태가 됨!!!
