@@ -1,0 +1,10 @@
+한번 Q값이 계산되면 Q값은 바뀌지 않음
+loss function을 이용하여 
+weight들이 변경되는 부분이 learning
+
+acting은
+deep neural network로 계산된 Q값들을 얻고 
+softmax함수를 발동
+계산된 Q값들 중에 하나를 선택하게 됨
+
+Simple Reinforcement Learning with Tensorflow(Part4) , Arthur Juliani(2016)
