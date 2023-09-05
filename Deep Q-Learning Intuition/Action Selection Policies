@@ -12,3 +12,7 @@ Exploitation : 기존의 최적화된 행동을 선택
 Deep Learning은 activation function으로 parameter들을 output으로 출력하여 어느 것에 해당되는 것인지를 구분할 수 있음(classifier)
 
 즉 특정 parameter들에 해당되면 output을 어느 것 중에 하나로 선택할 수 있게 됨
+
+대개 action select에 softmax가 쓰임
+
+Adaptive e-greedy Exploration in Reinforcement Learning Based on Value Differences, Michel Tokic (2010)
