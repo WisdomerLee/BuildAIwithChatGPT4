@@ -1,0 +1,8 @@
+스스로 운전하는 차를 만드는 프로그램을 짠다고 가정했을 때
+
+우리가 고려해야 하는 것: 무엇을 입력으로 넣어야 하는가???
+그리고 deep neural network는 얼마나 자주 호출해야 하는가?
+
+환경 자체는 같은 환경으로 같이 반복됨
+
+prioritized experience replay, Tom Schaul et al, Google DeepMind(2016)
