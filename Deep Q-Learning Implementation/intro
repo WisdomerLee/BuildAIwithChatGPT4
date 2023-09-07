@@ -8,3 +8,7 @@ https://docs.google.com/document/d/1tuqZVDI7hLM5jHx8se2AB26G0qIXZ3WgKPw293D7IcI/
 
 해당 데이터는 https://superdatascience.com/artificial-intelligence/
 이곳에서 
+
+chat gpt를 이용하여 python code를 짤 수 있음
+질문을 매우 구체적으로 써야 함
+특정 조건, agent가 취할 수 있는 행동들을 모두 알려주고 어느 모델을 쓰는 것이 좋은지를 추천하여 그 모델을 기반으로 파이썬 코드를 작성해달라고 프롬프트에 요청하면 됨
