@@ -1,0 +1,6 @@
+Deep Q - Learning
+
+Deep Q - Learning과 기본 조건은 같으나 입력되는 부분에서 그림으로 직접 입력받는 부분이 추가
+
+즉 환경 변수들의 파라미터들을 숫자, 문자 등으로 전달하지 않고 그림으로 입력 : 그러면 그 그림들은 Convolutional Layer와 Pooling Layer를 통해 input layer로 전달됨
+나머지 부분은 Deep Q-Learning과 같음
