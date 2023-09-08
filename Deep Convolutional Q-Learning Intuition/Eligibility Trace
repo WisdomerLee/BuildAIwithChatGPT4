@@ -1,0 +1,5 @@
+Eligibility Trace
+
+이전의 움직인 상태와 보상을 기억해두고 다음에 행동할 때 그 상태와 보상을 이용하여 다음 번 행동에서 선택할 때 참고하는 것 : 보다 빠르게 목적지(결과)에 도달할 수 있음!
+
+Reinforcement Learning : An Introduction, Richard S. Sutton and Andrew G. Barto(1998)
