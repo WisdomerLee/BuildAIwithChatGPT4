@@ -2,3 +2,9 @@
 
 https://www.superdatascience.com/artificial-intelligence/
 이곳에 있는 folder structure를 이용...
+
+논문은
+Asynchronous Methods for Deep Reinforcement Learning
+
+강화 학습에 쓰일 것은 쓰인 조건들과 함수들을 그대로 집어넣을 것!
+바뀌는 것은 함수들의 상수는 하이퍼파라미터들로 조정될 수 있게 되는 것 뿐
