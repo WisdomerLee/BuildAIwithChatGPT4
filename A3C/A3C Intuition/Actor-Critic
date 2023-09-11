@@ -1,0 +1,8 @@
+Deep Convolutional Q Learning
+환경 입력을 이미지로 주고 (Convolutional layer로 처리)
+Deep Neural Network에서 Q Learning을 학습
+그럼 그것으로 나온 weight들 중에 가장 높은 Q값을 선택하여 행동을 하도록 선택하면 됨
+
+Actor-Critic의 경우는 action값을 크게 둘로 나눔
+하나는 행동 값을 지정하는 Q값들 : Actor라고 부름 (Agent가 하는 행동을 지정하기 때문), 하나는 V(s)값이 됨 Critic이라고 부름 Critic은 예측된 값
+Actor들의 값Q 값들의 모임이 Policy가 됨
