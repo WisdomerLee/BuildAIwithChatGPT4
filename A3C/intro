@@ -1,0 +1,4 @@
+Deep Q - Learning을 수행할 AI와
+memory, critic sense(LSTM-A3C)를 합칠 예정
+
+해당 모델은 사람의 두뇌를 보다 효과적으로 따라함
