@@ -1,0 +1,8 @@
+3개의 A는 다음의 A를 가리킴
+
+Asynchronous
+Advantage
+Actor-Critic
+
+A3C를 처음 도입한 논문
+Asynchronous Methods for Deep Reinforcement Learning, Volodymyr Mnih et al.(2016)
