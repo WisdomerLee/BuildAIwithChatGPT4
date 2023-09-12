@@ -1,0 +1,17 @@
+Long Short Term Memory
+
+A3C algorithm
+
+flatten layer로 들어갈 때 
+
+input layer와 hidden layer 사이에 LSTM layer가 추가 됨
+
+hidden layer가 LSTM layer로 변경??
+
+기존의 특성을 기억하는 메모리 부분이 추가 됨
+특성을 기억하는 파라미터 값이 있는데 그 값을 계산하는 것은 매우 복잡한 수식으로 처리되어 계산됨
+그런데 왜 메모리가 필요한 것일까??
+
+이전의 상태를 기억해두면 그 다른 픽셀들이나 움직임의 방향을 확인할 수 있고 그에 따라 행동 선택에 도움이 됨
+
+LSTM layer는 항상 붙이는 것이 아니라 필요에 따라 더할 수 있음
