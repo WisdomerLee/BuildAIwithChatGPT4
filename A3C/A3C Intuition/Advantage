@@ -1,0 +1,13 @@
+
+value loss, policy loss
+
+softmax, epsion-greedy 등의 방식으로 선택된 Q값
+A = Q(s,a) -V(s)
+
+policy loss는 다시 backpropagation되어
+Advantage는 최대가 되도록 하는 것인가??
+
+policy loss 에 A값을 쓰기
+
+High-dimensional Continuous Control Using Generalized Advantage Estimation, John Schulman et al.(2016)
+Simple Reinforcement Learning with Tensorflow(part8), Arthur Juliani(2016)
