@@ -1,0 +1,21 @@
+pytorch를 쓸 것
+
+anaconda의 개발 환경에서
+
+mac에서는 cmd + space를 누르고 검색창에 terminal을 눌러 터미널을 활성화
+linux에서는 모니터 왼쪽에서 터미널을 찾아 실행
+window에서는 anaconda rompt를 열고 
+
+conda install -c pytorch pytorch
+conda install -c akode gym
+conda install -c menpo ffmpeg
+conda install -c conda-forge opencv
+위의 커맨드를 각각 실행할 것
+맨 위는 파이토치 설치
+두번째는 gym이라는 ai 환경 설정
+ffmpeg는 영상 저장 등에 활용되는 것
+opencv는 이미지 처리에 쓰이는 기법
+
+또한 데이터 베이스는 
+https://www.superdatascience.com/artificial-intelligence/
+위의 링크에서 받아서 쓸 것
