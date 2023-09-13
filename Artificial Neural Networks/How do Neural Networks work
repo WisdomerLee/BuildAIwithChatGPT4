@@ -1,0 +1,7 @@
+input layer들이 output layer에 끼치는 영향
+
+weight들을 통해 각 neuron들을 통해 계산이 되는데
+그 neuron들을 모아 layer를 만듦
+각 neuron마다 input layer의 값들의 영향이 다름... 몇몇은 크게 영향을 몇몇은 거의 영향이 없을 수도 있음
+서로 다른 neuron의 input layer의 값 계산을 마치고 나면
+그 값이 합쳐진 뒤에 activation function을 거쳐 output layer로 전달
