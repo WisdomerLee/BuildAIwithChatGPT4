@@ -1,0 +1,14 @@
+The Activation Function
+Threshold Function
+특정 값 이하, 이상일 경우에 특정 값을 갖는 함수가 있음
+sigmoid function
+Rectifier
+Hyperbolic Tangent(tanh)
+
+Deep sparse rectifier neural networks by Xavier Glorot et al.(2011)
+
+입력된 값들을 받아 그 값들을 weight와 곱한 뒤 neuron내부에서 각각을 더 한 뒤
+그 값이 threshold로 정한 그 함수에 집어넣어 그 값을 얻는데
+확률이 필요한 경우에는 연속적으로 정의되는 activation function을 선택하여 처리
+
+특정 값 이상이 되었을 때에만 그 값이 영향을 끼치도록 처리하는 것
