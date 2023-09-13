@@ -1,0 +1,11 @@
+cost function은 실제 값과 출력값의 차이에 비례한 값이라 이 값을 최소화 하기 위해
+backpropagation을 반복하며
+weight를 재조정하면서 학습을 진행하게 됨
+
+Gradient Descent
+cost function의 기울기 값이 0이 되는 지점(최소 값)을 찾아가는 방식
+
+cost function은 대체로 매우 많은 파라미터들이 있어 그 차원이 매우 높은 편
+그래서 기울기 값을 얻어내기가 쉽지 않음!
+
+step을 반복하며 cost function의 gradient를 계산하여 weight들을 재조정하여 cost function의 값이 최소가 되도록 조정
