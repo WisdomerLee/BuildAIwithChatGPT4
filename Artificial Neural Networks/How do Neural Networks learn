@@ -1,0 +1,6 @@
+output value와 실제 value를 비교 > 
+그 차이를 이용하여 back propagation input layer에 설정되어 있던 weight를 재조정
+그 뒤에 output value와 실제 value를 비교 > input layer에 설정되어 있던 weight를 재조정 (차이가 크면 클 수록 weight를 더 많이 조정)
+cost function이라고 하여 그 값을 최소로 하게 진행
+
+A list of cost functions used in neural networks, alongside applications, CrossValidated(2015)
