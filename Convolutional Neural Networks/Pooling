@@ -1,0 +1,7 @@
+feature map에서 ReLU layer를 거쳐 특성들이 나타난 데이터들이 모이게 되면
+그 자체로 계산을 해도 되지만 계산해야 할 양이 매우 많으므로 그 연산을 줄이기 위해 대표 값을 추출하게 됨
+그 과정이 Pooling (연산의 차원을 줄임) (몇몇 pixel의 대표 값을 뽑기)
+
+대표 값을 뽑는 것중에 많이 쓰이는 것이 max pooling : 가장 큰 값들만 추출
+
+Evaluation of Pooling Operations in Convolutional Architectures for Object Recognition, Dominik Scherer et al. (2010)
