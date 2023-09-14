@@ -1,0 +1,12 @@
+Softmax
+
+output layer의 값에 적용하여 이것이 어느 쪽에 가까운지를 선별하게 완성시켜주는 함수!
+input layer의 activation function과 비슷한 역할
+
+backpropagation에서 쓰이게 될 error의 값을 어떻게 계산할 것인가??
+
+classical error : 평균 값이 되어 보다 정확히 맞춘 것과 덜 맞춘 것과 구분이 어려울 수 있음
+
+mean squared error : 보다 더 정확히...?
+
+cross-entropy : mean squared error와는 다른 형태로 error를 측정하는 방식이 다름
