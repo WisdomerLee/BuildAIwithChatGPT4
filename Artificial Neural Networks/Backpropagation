@@ -1,0 +1,11 @@
+input > hidden > output : forward propagation
+output > hidden > input : backpropagation
+
+
+Training the ANN with Stochastic Gradient Descent
+1. weight가 랜덤하게 매우 0에 가깝게 설정된 값으로 neural network에 할당
+2. dataset에서 첫번째 observation에 해당되는 값이 input layer에 들어감, 특성 하나당 하나의 input node로 들어감
+3. forward-propagation : neuron들이 활성화 되며 값이 차례로 전달됨(weight를 통해 계산된 값들이 전달), 출력 값이 나올 때까지 neuron 활성화
+4. 출력으로 나온 예상 값과 실제 결과를 비교 : 에러 값 계산
+5. backpropagation : error가 back-propagation되어 전달됨, error에 비례하여 weight들의 값을 조정 learning rate는 이 단계에서 weight들이 update되는 정도를 조절하게 됨
+6. 1~5단계 반복하고 각 observation마다 weight를 업데이트: reinforcement learning, 1~5단계를 반복하고 observation의 batch가 끝나고 나면 그 때 weight update : Batch Learning
