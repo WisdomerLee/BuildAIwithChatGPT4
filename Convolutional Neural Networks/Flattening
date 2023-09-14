@@ -1,0 +1,4 @@
+뽑아낸 feature map을 1차원의 배열로 만들어주는 것 : flattening
+pooling layer> flattening
+
+flattening이 되어 ANN의 input layer의 입력 값들로 전달됨
