@@ -1,0 +1,11 @@
+그림의 입력을 넣어주고
+해당 그림이 어느 것을 나타내는지 구분하거나 할 때 주로 쓰임
+
+classifier
+이 그림이 무엇인가??
+
+input image > CNN > image type print
+
+input image > CNN > emotion
+
+input image > CNN > object name
