@@ -1,0 +1,6 @@
+ANN에 convolution 과정을 추가하여 연결하기
+
+ANN의 input에 convolutional 과정이 완료된 부분이 연결
+나머지 부분은 ANN과 같음
+출력되는 output layer쪽은 convolutional layer를 통해 입력되는 이미지가 무엇인지 파악하는(classifier)쪽
+그림이 무엇 혹은 무엇이 있다 없다 등
