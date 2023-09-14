@@ -1,0 +1,11 @@
+Convolution : 수학적 개념 : 함수 둘을 합성하는 것
+
+input image : pixel당 int값들을 여럿 들고 있는 입력 데이터
+feature detector : 특정 그림의 패턴 형태(pixel에서 int 값을 특정 영역에서 갖고 있는 것)
+Feature Map : input image의 한칸씩 이동하여 feature detector와 convolution으로 처리하여 그 값을 얻어낸 것
+(일치하는 pixel이 많을 수록 그 값이 높음)
+
+feature map은 무엇을 뜻하는가??
+우리가 보고자 하는 것이 feature detector의 그림인데 feature map의 그 값을 통해 그 값이 있는지 없는지를 확인, 그리고 그 위치가 어디에 있는지를 파악하는데 쓰이는 것...?
+
+input image > convolutional layer : convolutional layer는 feature map들로 이루어진 layer가 됨
