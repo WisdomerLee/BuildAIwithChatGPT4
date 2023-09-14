@@ -1,0 +1,6 @@
+convolutional layer를 통해 feature map들을 뽑아냈다면
+여기서 linearity를 제거하기 위해(-로 나타난 특성들을 +로 돌리기 위해) 추가로 feature map들 중에 특성을 일부 걸러냄
+걸러내는데 쓰이는 것이 ReLU Layer들
+
+Understanding Convolutional Neural Networks with A Mathematical Model, C.-C. JayHo()
+Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification, Kaiming He te al.(2015)
